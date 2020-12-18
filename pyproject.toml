@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "berpublicsearch_rcmodel"
+version = "0.1.0"
+description = ""
+authors = ["Rowan Molony <rowan.molony@codema.ie>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+icontract = "^2.4.0"
+numpy = "^1.19.4"
+pandas = "^1.1.5"
+matplotlib = "^3.3.3"
+rc-buildingsimulator = {git = "https://github.com/codema-dev/RC_BuildingSimulator"}
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
